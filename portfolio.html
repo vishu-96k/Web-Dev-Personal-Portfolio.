@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        header {
+
+            text-align: center;
+            margin: 0;
+            padding-bottom: 5px;
+            /* Add this line */
+
+
+        }
+
+        section h1 {
+            margin-bottom: 10px;
+            /* Add this line */
+        }
+
+
+        header h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            /* Add this line */
+        }
+
+
+        section {
+            margin-bottom: 10px;
+            /* Add this line */
+        }
+
+
+        section img {
+            max-width: 100%;
+            border-radius: 50%;
+        }
+
+        section div {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            margin: 5px;
+            padding: 5px 10px;
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            background-color: #555;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        a:hover {
+            background-color: #777;
+        }
+
+        body {
+            background: black;
+        }
+
+        video {
+            object-fit: cover;
+            margin-left: 10px;
+        }
+
+
+        h1 {
+            position: absolute;
+            top: 35%;
+            left: 15%;
+            color: #ddd;
+            font-size: 5em;
+            letter-spacing: 0.2em;
+
+
+
+        }
+
+        h1 span {
+            opacity: 0;
+            display: inline-block;
+            animation: animate 1s linear forwards;
+
+        }
+
+        @keyframes animate {
+            0% {
+                opacity: 0;
+                transform: rotateY(90deg);
+
+                filter: blur(10px);
+
+            }
+
+            100% {
+                opacity: 1;
+                transform: rotateY(0deg);
+                filter: blur(0px);
+            }
+        }
+
+        h1 span:nth-child(1) {
+            animation-delay: 0.25s;
+        }
+
+        h1 span:nth-child(2) {
+            animation-delay: 0.75s;
+        }
+
+        h1 span:nth-child(3) {
+            animation-delay: 1.25s;
+        }
+
+        h1 span:nth-child(4) {
+            animation-delay: 1.75s;
+        }
+
+        h1 span:nth-child(5) {
+            animation-delay: 2.25s;
+        }
+
+        h1 span:nth-child(6) {
+            animation-delay: 2.75s;
+        }
+
+        h1 span:nth-child(7) {
+            animation-delay: 3.25s;
+        }
+
+        h1 span:nth-child(8) {
+            animation-delay: 3.75s;
+        }
+
+        h1 span:nth-child(9) {
+            animation-delay: 4.25s;
+        }
+
+        h1 span:nth-child(10) {
+            animation-delay: 4.75s;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <section>
+        <video src="smoke.mp4" autoplay muted></video>
+        <h1>
+            <span>V</span>
+            <span>I</span>
+            <span>S</span>
+            <span>H</span>
+            <span>W</span>
+            <span>A</span>
+            <span>J</span>
+            <span>E</span>
+            <span>E</span>
+            <span>T</span>
+        </h1>
+    </section>
+
+    <header>
+        <h2>Web Developer</h2>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <img src="CR7.jpeg" alt="Vishwajeet  " width="0" height="700" class="center">
+        <div>
+            <h2>About Me</h2>
+
+            <p>
+                I am a passionate web developer with a strong foundation in HTML, CSS, and
+                JavaScript. With [X years/months] of experience in the field, I have honed
+                my skills in creating visually appealing and user-friendly websites. I am
+                adept at responsive design, ensuring seamless user experiences across
+                various devices..
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- Each project should have a title, description, and image -->
+        <div class="project">
+            <h3>Parking Management System</h3>
+
+            <p>The Parking Management Project is a software solution designed to streamline and automate the process of
+                parking lot operations. It encompasses a range of features to enhance the efficiency, security, and
+                convenience of parking facilities. This includes functionalities such as:
+
+                Automated Entry and Exit Systems: Utilizing technology like RFID cards, QR codes, or license plate
+                recognition for seamless vehicle access.
+
+                Real-Time Monitoring: Monitoring parking space availability, vehicle movements, and occupancy rates in
+                real-time.
+
+                Reservation System: Allowing users to pre-book parking spots, ensuring availability upon arrival.
+
+                Payment Processing: Offering various payment options, including cash, credit cards, and mobile payments.
+
+                Security and Surveillance: Implementing CCTV cameras and access control systems for enhanced security.
+            </p>
+        </div>
+
+    </section>
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="https://drive.google.com/file/d/1DdoELEeulppdMnXHavTRFytHVUcArY-I/view?usp=sharing" target="_blank"
+            rel="noopener noreferrer">Download PDF</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: vishwajeet.gaikwad@mitaoe.ac.in</p>
+        <p>Phone: 8600942798</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/feed/vishuu96.k@gmail.com" target="_blank">LinkedIn Profile</a>
+        </p>
+    </section>
+
+    <footer>
+        &copy; 2023 vishwajeet gaikwad
+    </footer>
+
+</body>
+
+</html>
